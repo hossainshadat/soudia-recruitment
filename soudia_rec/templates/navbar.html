@@ -1,0 +1,59 @@
+{% load static %}
+<div class="site-header__wrap">
+
+					<a href="{% url 'index' %}" title="Extended" rel="home" class="site-branding">
+												<h1 class="site-title">
+															<img src="{% static 'assets/images/premium-logo.svg' %}" width="" height="" alt="" />
+							
+							<span>Extended</span>
+						</h1>
+						<h2 class="site-description">Jobify Extended</h2>
+					</a>
+<nav id="site-navigation" class="site-primary-navigation">
+						<a href="#site-navigation" class="js-primary-menu-toggle primary-menu-toggle primary-menu-toggle--close">Close</a>
+
+						<form role="search" method="get" id="searchform" class="searchform searchform--header" action="https://jobify-demos.astoundify.com/extended/">
+	<label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" class="searchform__input searchform--header__input" placeholder="Keywords..." />
+	<button type="submit" id="searchsubmit" class="searchform__submit searchform--header__submit"><span class="screen-reader-text">Search</button>
+</form>
+<div class="nav-menu nav-menu--primary"><ul id="menu-main-menu" class="nav-menu nav-menu--primary"><li id="menu-item-99991397" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991397"><a href="{% url 'how_it_works' %}">How It Works</a></li>
+<li id="menu-item-99991393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991393"><a href="#">Pricing</a></li>
+<!-- <li id="menu-item-99991382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-99991382"><a href="#">Candidates</a> -->
+<ul  class="sub-menu">
+	<li id="menu-item-99991392" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991392"><a href="{% url 'find_a_job' %}">Find A Job</a></li>
+	<!-- <li id="menu-item-99991212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991212"><a href="https://jobify-demos.astoundify.com/extended/companies/">Companies</a></li>
+	<li id="menu-item-99991384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991384"><a href="https://jobify-demos.astoundify.com/extended/submit-your-resume/">Submit Your Resume</a></li>
+	<li id="menu-item-99991383" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991383"><a href="https://jobify-demos.astoundify.com/extended/candidate-dashboard/">Candidate Dashboard</a></li> -->
+</ul>
+</li>
+<!-- <li id="menu-item-99991386" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-99991386"><a href="#">Employers</a>
+<ul  class="sub-menu">
+	<li id="menu-item-99991391" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991391"><a href="https://jobify-demos.astoundify.com/extended/post-a-job/">Post A Job</a></li>
+	<li id="menu-item-99991387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991387"><a href="https://jobify-demos.astoundify.com/extended/find-a-candidate/">Find A Candidate</a></li>
+	<li id="menu-item-99991388" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991388"><a href="https://jobify-demos.astoundify.com/extended/pricing/">Pricing</a></li>
+	<li id="menu-item-99991389" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991389"><a href="https://jobify-demos.astoundify.com/extended/job-dashboard/">Job Dashboard</a></li>
+</ul>
+</li> -->
+<li id="menu-item-99991188" class="menu-item "><a href="{% url 'cart' %}">Cart</a>
+<li id="menu-item-99991188" class="menu-item "><a href="{% url 'post_a_job' %}">Post a Job</a>
+<!-- <li id="menu-item-99991188" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-99991188"><a href="#">Pages</a>
+<ul  class="sub-menu">
+	<li id="menu-item-99991221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991221"><a href="https://jobify-demos.astoundify.com/extended/blog/">Blog</a></li>
+	<li id="menu-item-99991211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-99991211"><a href="https://jobify-demos.astoundify.com/extended/shop/">Shop</a>
+	<ul  class="sub-menu">
+		<li id="menu-item-99991210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991210"><a href="https://jobify-demos.astoundify.com/extended/cart-2/">Cart</a></li>
+		<li id="menu-item-99991209" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991209"><a href="https://jobify-demos.astoundify.com/extended/checkout-2/">Checkout</a></li>
+	</ul>
+</li>
+	<li id="menu-item-99991218" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991218"><a href="https://jobify-demos.astoundify.com/extended/testimonials/">Testimonials</a></li>
+	<li id="menu-item-99991214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991214"><a href="https://jobify-demos.astoundify.com/extended/frequently-asked-questions/">FAQ</a></li>
+	<li id="menu-item-99991216" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991216"><a href="https://jobify-demos.astoundify.com/extended/privacy-policy/">Privacy Policy</a></li>
+	<li id="menu-item-99991217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99991217"><a href="https://jobify-demos.astoundify.com/extended/terms-and-conditions/">Terms and Conditions</a></li>
+</ul>
+</li> -->
+<!-- <li id="menu-item-99991219" class="popup menu-item menu-item-type-post_type menu-item-object-page menu-item-99991219"><a href="https://jobify-demos.astoundify.com/extended/signup/" class="popup-trigger-ajax">Sign Up</a></li> -->
+<li id="menu-item-99991419" class="login menu-item menu-item-type-post_type menu-item-object-page menu-item-99991419"><a href="#" class="popup-trigger-ajax">Login</a></li>
+</ul></div>					
+	</nav>
+	</div>

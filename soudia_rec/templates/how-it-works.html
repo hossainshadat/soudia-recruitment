@@ -1,0 +1,122 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+<body class="page-template page-template-page-templates page-template-template-widgetized page-template-page-templatestemplate-widgetized-php page page-id-99991394 single-listing-style-top single-resume-style-top wp-job-manager-categories-enabled wp-resume-manager-categories-enabled wp-job-manager wp-job-manager-resumes wp-job-manager-wc-paid-listings wp-job-manager-bookmarks wp-job-manager-tags ninjaforms-contact-resume-form wp-job-manager-contact-listing ninjaforms-contact-job-form woocommerce testimonials jetpack custom-font nav-menu-break-large fixed-header jobify-child-premium">
+
+	<div id="page" class="hfeed site">
+
+		<header id="masthead" class="site-header" role="banner">
+			<div class="container">
+
+					{% include 'navbar.html' %}
+
+				<a href="#site-navigation" class="js-primary-menu-toggle primary-menu-toggle primary-menu-toggle--open"><span class="screen-reader-text">Menu</span></a>
+			</div>
+		</header><!-- #masthead -->
+
+		<div id="main" class="site-main">
+
+	<div id="primary" role="main">
+
+		
+			<div class="content-area content-area--squash">
+
+			{% include 'slider.html' %}
+<section id="jobify_widget_feature_callout-11" class="widget widget--home jobify_widget_feature_callout widget--home-feature-callout">
+<div class="feature-callout text-right image-pull">
+
+	
+		<div class="container">
+			<div class="col-xs-12 col-sm-6 col-sm-offset-6">
+				<div class="callout-feature-content callout-feature-content--height-medium">
+<h2 class="callout-feature-title">Find Your Match</h2>
+<p>Search, find and apply for jobs directly on your mobile device or desktop. Manage all of the jobs you have applied to from a convenience secure dashboard.</p>
+</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-6  feature-callout-image-pull"></div>
+
+		<style>
+		#jobify_widget_feature_callout-11 .feature-callout-image-pull {
+			background-image: url({% static 'assets/images/find-your-match-resized-two.svg' %});
+			background-position: center center;
+			background-attachment: scroll;
+		}
+		</style>
+
+	
+</div>
+
+<style>
+#jobify_widget_feature_callout-11 .feature-callout {
+	background-color: #f3f4f6;
+}
+
+#jobify_widget_feature_callout-11 .callout-feature-content,
+#jobify_widget_feature_callout-11 .callout-feature-content p,
+#jobify_widget_feature_callout-11 .callout-feature-content a:not(.button),
+#jobify_widget_feature_callout-11 .callout-feature-title {
+	color: #717a8f}
+</style>
+
+</section><section id="jobify_widget_feature_callout-10" class="widget widget--home jobify_widget_feature_callout widget--home-feature-callout">
+<div class="feature-callout text-left image-pull">
+
+	
+		<div class="container">
+			<div class="col-xs-12 col-sm-6 ">
+				<div class="callout-feature-content callout-feature-content--height-medium">
+<h2 class="callout-feature-title">Apply Directly</h2>
+<p>Once you have found your matches, you can easily apply to the jobs that suit you best via the convenient web form and even submit your previously uploaded resume to save time.</p>
+</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-6 col-sm-offset-6 feature-callout-image-pull"></div>
+
+		<style>
+		#jobify_widget_feature_callout-10 .feature-callout-image-pull {
+			background-image: url({% static 'assets/images/skilled-matched-resized-two.svg' %});
+			background-position: center center;
+			background-attachment: scroll;
+		}
+		</style>
+
+	
+</div>
+
+<style>
+#jobify_widget_feature_callout-10 .feature-callout {
+	background-color: #ffffff;
+}
+
+#jobify_widget_feature_callout-10 .callout-feature-content,
+#jobify_widget_feature_callout-10 .callout-feature-content p,
+#jobify_widget_feature_callout-10 .callout-feature-content a:not(.button),
+#jobify_widget_feature_callout-10 .callout-feature-title {
+	color: #717A8F}
+</style>
+
+</section>
+			</div>
+
+		
+	</div><!-- #primary -->
+
+
+		</div><!-- #main -->
+
+				<div class="footer-cta">
+			<div class="container">
+				<h2>Got a question?</h2>
+<p>We're here to help. Check out our FAQs, send us an email or call us at 1 (800) 555-5555</p>
+<p><a href="#" class="button button--type-action">Contact Us</a></p>
+			</div>
+		</div>
+		
+		{% include 'footer.html' %}
+	</div><!-- #page -->
+
+	{% endblock %}
